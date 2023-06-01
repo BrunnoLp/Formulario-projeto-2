@@ -1,4 +1,4 @@
-Oficina especializada em melhorar o desempenho e estetica do carro.
+/*Oficina especializada em melhorar o desempenho e estetica do carro.
 
 Serviços prestados:
 
@@ -8,5 +8,50 @@ Criação de gaiolas de estabilidade
 Barras de estabilidade
 Criamos e instalamos body kits em seu carro, seja por fabricação nossa ou comprado.
 Pintura personalizada 
-Projetos de farios e lanternas traseiras.
+Projetos de farios e lanternas traseiras.*/
+
+/*header {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(126, 126, 126);
+}
+
+main {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(214, 214, 214);
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color:rgb(126, 126, 126);
+}
+
+.cabecalho {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute; 
+    top: 220px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(212, 212, 212);
+}
+*/
 
