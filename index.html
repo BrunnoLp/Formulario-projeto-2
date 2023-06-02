@@ -1,33 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt=br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garagem RPM</title>
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/reset.css">
 </head>
     <body>
         <header>
-            <div class="cabecalho">
-                <nav>
-                    <ul class="itens-cabecalho">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="planos.html">Valores e Planos</a></li>
-                        <li><a href="calendario.html">Agende seu Horarios</a></li>
-                    </ul>
-                </nav>
-            </div >
+            <img src="assets/imagens/5596.png" id="logo">
         </header>
 
         <main>
-            <h2>Oficina especializada em melhorar o desempenho e estetica do carro.</h2>
-            
-        </main>
-        <aside>
+            <div>
+                <p>Oficina especializada em performance</p>
+            </div>
+            <form >
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
 
-        </aside>
+                <label for="Email">Email</label>
+                <input type="email" id="Email" class="input-padrao" required placeholder="123@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(11) 9 9999-9999">
+                
+                <label>Carro</label>
+                <input id="Carro" class="input-padrao" required placeholder="Modelo do carro e ano">
+
+                <fieldset>
+                    <legend>Possui Seguro?</legend>
+                    
+                    <label><input type="radio" name="Seguro">Sim</label>
+                    
+                    <label><input type="radio" name="Seguro">Nao</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual motivo de modificação?</legend>
+                    
+                    <label><input type="radio" name="Motivo">Performance</label>
+                    
+                    <label><input type="radio" name="Motivo">Estetico</label>
+
+                    <label><input type="radio" name="Motivo">Drift</label>
+
+                    <label><input type="radio" name="Motivo">Rally</label>
+
+                    <label><input type="radio" name="Motivo">Conserto mecanico</label>
+                </fieldset>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" placeholder="Descreva o problema ou o que gostaria que fosse feito"></textarea required>
+
+                
+
+                <fieldset>
+                    <legend></legend>
+                    <Select class="select-estilo">
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </Select>
+                </fieldset>
+                
+                <input type="submit" value="Enviar Formulário" class="enviar">
+                
+                
+            </form>
+        </main>
 
         <footer>
             Rodapé
